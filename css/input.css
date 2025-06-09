@@ -49,7 +49,8 @@ body {
 }
 
 .tg-button {
-  background: radial-gradient(50% 50% at 50% 50%, #1E8AB5 0%, #007AAB 100%);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+  radial-gradient(50% 50% at 50% 50%, #538FF1 0%, #3172DE 100%);
   @apply font-bold flex items-center justify-center relative overflow-hidden rounded-full uppercase h-[70px] 800px:h-[90px] 1200px:h-[100px] text-[#fff] text-[28px] 800px:text-[32px] 1100px:text-[36px] cursor-pointer;
 }
 
